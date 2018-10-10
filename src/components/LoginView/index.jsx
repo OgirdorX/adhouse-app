@@ -64,7 +64,7 @@ const LoginView = ({ doLogin }) => {
                             control={<Checkbox value="remenber" color="primary" />}
                             label="Remember me"
                         />
-                        <Button onClick={doLogin} type="submit" fullWidth variant="raised" color="primary">
+                        <Button type="submit" fullWidth variant="raised" color="primary">
                             Sign in
                         </Button>
                     </CardContent>
